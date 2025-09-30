@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p4</title>
+    <style>
+        /*formatejar els valors per defecte - box sizing */
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        /* tamanys de la p, widing, height, alinear el text*/
+        p{
+            width: 100vw;
+            height: 20vh;
+            text-align: center;
+        }
+
+        /* span col·locar padding a dreta i esquerra*/
+        *{
+            padding: 2rem 2rem 2rem 2rem;
+        }
+
+        /* en la ultima #cinc modificar kerning*/
+     .kerning{
+        padding: 0 8vw;
+     }
+
+    </style>
+</head>
+<body>
+    <p>uno</p>
+    <p><span>dos</span><span>dos</span></p>
+    <p><span>tres</span><span>tres</span><span>tres</span></p>
+    <p><span>cuatro</span><span>cuatro</span><span>cuatro</span><span>cuatro</span></p>
+    <p id="cinc">
+    <span class="kerning">c</span>
+    <span class="kerning">i</span>
+    <span class="kerning">n</span>
+    <span class="kerning">c</span>
+    <span class="kerning">o</span>
+
+    </p>
+</body>
+</html>
